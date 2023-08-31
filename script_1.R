@@ -38,10 +38,6 @@
 # ca: number of major vessels (0-3)
 
 
-
-
-
-
 ## 2) Carregando bibliotecas:
 
 library(tableone)
@@ -111,6 +107,7 @@ tabela2 <- CreateTableOne(vars = var1,strata = "output2", data = dados, includeN
 print(tabela2, showAllLevels = TRUE)
 
 ## 7) Perguntas:
+
 
 
 
